@@ -56,19 +56,22 @@ http://localhost:9090/swagger-ui/index.html
 # Exemple de Requêtes API
 Créer un produit : 
 
-POST /products
-{
-    "code": "code_10",
-    "name": "name 10",
-    "description": "Product Description 10",
-    "image": "black-10.jpg",
-    "category": "CAT-10",
-    "price": 10.01,
-    "quantity": 10,
-    "shellId": "1010101",
-    "inventoryStatus": "INSTOCK",
-    "rating": 5
-}
+POST /v1/products
+
+``` json
+  {
+      "code": "code_10",
+      "name": "name 10",
+      "description": "Product Description 10",
+      "image": "black-10.jpg",
+      "category": "CAT-10",
+      "price": 10.01,
+      "quantity": 10,
+      "shellId": "1010101",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5
+  }
+```
 
 # Postman collection
 product-api/postman/Product API.postman_collection.json
