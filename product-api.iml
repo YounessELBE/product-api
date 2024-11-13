@@ -1,0 +1,24 @@
+<!--
+    This XML file configures the IDE's JPA facet, which provides support for Hibernate as the JPA provider and enables validation.
+    It doesn't affect runtime behavior but helps with IDE support, validation, and code completion for JPA entities.
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <!-- FacetManager component handles configuration for different frameworks in this module -->
+  <component name="FacetManager">
+    <!-- Declares a JPA facet for the module, using Hibernate as the provider -->
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <!-- Enables validation of JPA annotations, entities, and configurations -->
+        <setting name="validation-enabled" value="true" />
+        <!-- Specifies Hibernate as the JPA provider for this module -->
+        <setting name="provider-name" value="Hibernate" />
+        <!-- Placeholder for data source mappings, leave empty for default behavior -->
+        <datasource-mapping />
+        <!-- Placeholder for naming strategies, can be configured for custom naming conventions -->
+        <naming-strategy-map />
+      </configuration>
+    </facet>
+  </component>
+</module>

@@ -1,0 +1,6 @@
+com\alten\product\controller\ProductControllerTest.class
+com\alten\product\mapper\ProductRequestMapperTest.class
+com\alten\product\service\ProductServiceTest.class
+com\alten\product\validator\ProductValidatorTest.class
+com\alten\product\mapper\ProductResponseMapperTest.class
+com\alten\product\ProductApplicationTests.class
